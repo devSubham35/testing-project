@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-scroll::-webkit-scrollbar { 
+    display: none;
+}
+
+@layer base {
+  :root { 
+        --radius: 0.5rem;
+    }
+}
